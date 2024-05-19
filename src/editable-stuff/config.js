@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Kadir",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Islow",
+  message: " Passionate about improving the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/kislow",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/kislow/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/k_isl0w/",
+    },
+    {
+      image: "fa-brands fa-medium",
+      url: "https://medium.com/@kislow",
     },
   ],
 };
@@ -41,7 +37,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/kislowai.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -51,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/kislowai.png"),
+  imageSize:375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I’m a graduate from Coventry University with a degree in Computer Science focus on Ethical Hacking & Network security. I'm most passionate about coding and infrastructure. In my free time I enjoy reading and playing football.",
+  resume: "https://linkedin.com/in/kislow/",
 };
 
 // PROJECTS SECTION
@@ -65,10 +61,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "GitHub Projects",
+  gitHubUsername: "kislow",
+  reposLength: 1,
+  specificRepos: ["helm-crd-extractor"]
 };
 
 // Leadership SECTION
@@ -78,15 +74,15 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/kislowai.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/kislowai.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
@@ -100,14 +96,18 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Bash", value: 95 },
+    { name: "Python", value: 85 },
+    { name: "Go", value: 75 },
+    { name: "JavaScript", value: 60 },
+    { name: "Terraform", value: 80 },
+    { name: "Bicep/CloudFormation/Pulumi", value: 65 },
+    { name: "Linux", value: 90 },
+    { name: "Docker", value: 90 },
+    { name: "Kubernetes", value: 80 },
+    { name: "AWS", value: 70 },
+    { name: "Azure", value: 60 },
+    { name: "GitHub/GitLab/AzureDevOps", value: 85 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -115,9 +115,7 @@ const skills = {
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 70 },
   ],
 };
 
@@ -126,23 +124,53 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm based in the UAE/UK. Get in touch if you know of DevOps Engineering, Site Reliability Engineering or Cloud Engineering opportunities! If you have any questions, or if you just want to say hi, feel free to email me at",
+  email: "kadirislow@gmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
+const experience = {
+  show: true,
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Engineer/Cloud Platform Engineer',
+      companylogo: require('../assets/img/enbw.png'),
+      date: 'November 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'DevOps Engineer/Site Reliability Engineer',
+      companylogo: require('../assets/img/1n1.png'),
+      date: 'September 2020 – October 2022',
+    },
+    {
+      role: 'DevOps Engineer',
+      companylogo: require('../assets/img/gft.png'),
+      date: 'March 2018 – August 2020',
+    },
+    {
+      role: 'DevOps Tech Lead (contracting)',
+      companylogo: require('../assets/img/tagbiometrics.png'),
+      date: '2023',
+    },
+    {
+      role: 'Infrastructure Engineer',
+      companylogo: require('../assets/img/phka.png'),
+      date: 'January 2015 – December 2018',
+    },
+    {
+      role: 'Redevelop network infrastructure (contracting)',
+      companylogo: require('../assets/img/safj_fh.png'),
+      date: '2017',
+    },
+    {
+      role: 'IT Analyst',
+      companylogo: require('../assets/img/cat.png'),
+      date: '2015',
+    },
+    {
+      role: 'Software Developer (Intern)',
+      companylogo: require('../assets/img/objektkultur.png'),
+      date: '2013',
     },
   ]
 }
@@ -152,4 +180,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experience };
