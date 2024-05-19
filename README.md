@@ -1,7 +1,6 @@
 # About the project
 
-[![Site preview](/public/personal-web.png)]
-
+![Site preview](/public/personal-web.png)
 
 ## Technology stack 🛠️
 
