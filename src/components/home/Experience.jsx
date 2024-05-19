@@ -7,6 +7,10 @@ import {
 } from "react-bootstrap";
 
 const Experience = ({ experience }) => {
+  if (!experience || !experience.heading) {
+    return null; // or display a fallback UI
+  }
+
   return (
     <section className="section">
       <Container>

@@ -57,7 +57,7 @@ const about = {
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
+// If you want to display specific projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
@@ -96,7 +96,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Bash", value: 95 },
+    { name: "Bash", value: 95, icon: "fa-linux" },
     { name: "Python", value: 85 },
     { name: "Go", value: 75 },
     { name: "JavaScript", value: 60 },
@@ -158,7 +158,7 @@ const experience = {
       date: 'January 2015 – December 2018',
     },
     {
-      role: 'Redevelop network infrastructure (contracting)',
+      role: 'Infrastructure & Network Security (contracting)',
       companylogo: require('../assets/img/safj_fh.png'),
       date: '2017',
     },
@@ -172,8 +172,8 @@ const experience = {
       companylogo: require('../assets/img/objektkultur.png'),
       date: '2013',
     },
-  ]
-}
+  ],
+};
 
 // Blog SECTION
 // const blog = {
