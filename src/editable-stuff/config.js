@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/kislowai.png"),
   imageSize:375,
   message:
-    "I’m a graduate from Coventry University with a degree in Computer Science focus on Ethical Hacking & Network security. I'm most passionate about coding and infrastructure. In my free time I enjoy reading and playing football.",
+    "I am a Coventry University (United Kingdom) graduate with a degree in Computer Science focus on Ethical Hacking & Network security. I'm most passionate about coding and infrastructure. In my free time I enjoy reading and playing football.",
   resume: "https://linkedin.com/in/kislow/",
 };
 
@@ -63,8 +63,8 @@ const repos = {
   show: true,
   heading: "GitHub Projects",
   gitHubUsername: "kislow",
-  reposLength: 1,
-  specificRepos: ["helm-crd-extractor"]
+  reposLength: 6,
+  specificRepos: []
 };
 
 // Leadership SECTION
